@@ -1,0 +1,22 @@
+{
+  "name": "batch-renamer",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts"
+
+  },
+  "keywords": [],
+  "author": "Artemisx3",
+  "co-author": "ShinniUwU",
+  "license": "MIT",
+  "description": "A simple batch renaming terminal app made in typescript",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2"
+  }
+}
