@@ -4,7 +4,6 @@
   "main": "./src/index.ts",
   "scripts": {
     "start": "npx ts-node ./src/index.ts"
-
   },
   "keywords": [],
   "author": "Artemisx3",
@@ -14,9 +13,16 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
+    "picocolors": "^1.1.0",
     "readline": "^1.3.0"
   },
   "devDependencies": {
+    "@types/ansi": "^0.3.6",
     "@types/node": "^22.5.2"
+   
   }
 }
+
+  
+  
+  
